@@ -56,3 +56,9 @@ Custom booking system developed for a psychology professional, streamlining the 
 
 
 *Landing page with service information*
+
+
+## 👤 Developer
+**Ari Christian Chavez**
+- 💼 LinkedIn: https://www.linkedin.com/in/ari-christian-chavez-a21894120/
+- 📧 Email: accmnl@hotmail.com
