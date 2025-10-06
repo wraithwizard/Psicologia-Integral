@@ -1,0 +1,61 @@
+@import "dashboard.css";
+
+.config-send{
+    padding: 2rem;
+}
+.config-checkbox{
+    padding: 2rem;
+}
+table { 
+    border-spacing: 0;
+    margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    font-size: 1rem;
+}
+thead tr {
+    background-color: var(--secondary);
+    color: #ffffff;
+    text-align: left;
+}
+th, td {
+    padding: 12px 15px;  
+}
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+tbody tr {
+    border-bottom: 1rem solid #000000;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+    border-bottom: 2px solid var(--secondary);
+}
+
+/* Styles for the sorting links */
+th a {
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+th a::after {
+    content: '⇵';
+    margin-left: 5px;
+}
+th a[href*="order=asc"]::after {
+    content: '↑';
+}
+th a[href*="order=desc"]::after {
+    content: '↓';
+}
+
+/* Responsive design */
+/* @media (max-width: 767px) {   
+    th, td {
+        padding: 10px;
+    }
+} */

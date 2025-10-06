@@ -1,0 +1,153 @@
+@import "styles.css";
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    display: none;
+}
+.btn{
+    background: var(--primary);
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;    
+    cursor: pointer;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+.app-name{
+    text-align: center;
+    padding: 1rem;
+}
+.hidePageBtn{
+    visibility: hidden;
+}
+/* lista de servicios */
+.card-container{
+    display: flex;
+    flex-direction: row;
+    border-style: groove;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;  
+    
+    outline: none;
+    transition: 0.4s;
+}
+.nombre{
+    margin-right: auto; 
+    font-weight: bolder;
+}
+.precio{
+    background-color: var(--sixth);
+    color: white;
+    padding: 1rem;
+    border-radius: 10%;
+    min-width: 3rem;
+    max-width: 3rem;    
+    text-align: center;
+}
+.section_choose{
+    text-align: center;
+}
+.arrow{
+    padding: 1rem;
+}
+/*  dropdown content */
+.dropdown{
+    display: none;
+    border-style: groove;
+    border-top: none;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 4rem;
+    overflow: hidden;  
+}
+/* inside the dropdown */
+.dropdown-btn{
+    background-color: var(--secondary);
+    color: black;
+    padding: 1rem;
+    border-radius: 10%;        
+    margin-top: 1.5rem;
+}
+.arrow-rotation{
+    transform: rotate(90deg);
+}
+/* show the dropdown menu */
+.show{
+    display: block;
+}
+.alerta{
+    background-color: red;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+}
+.cart{
+    background-color: var(--secondary);
+    font-size: larger;
+    font-weight: bolder;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #000
+}
+.descripcion{
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+}
+.normal{
+    font-weight:lighter;
+}
+.reservar{
+    width: 50%;
+    flex: 1 0 2;
+    align-items: center;
+    justify-content: center;
+}
+.session__close-txt{
+    font-size: 1rem;    
+    text-decoration: none;
+    color: var(--fifth);
+}
+.modalidad{
+    display: block;
+    padding: 0.5rem;
+    max-width: 100wh;
+    margin: 1rem;
+    font-size: 1rem;
+}
+.app__citas-bnt{
+    height: 1rem;
+}
+.container-span{
+    font-weight: lighter;
+}
+.card-citas{
+    align-items: center;
+    justify-content: center;
+    border: 0.2rem solid rgb(0, 0, 0, 0.5);
+}
+.service{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.renglon{
+    background-color: var(--secondary);
+    padding: 1rem;
+}
+.linea{
+    padding: 1rem;
+}
+.paypal-container{
+    display: none;
+}

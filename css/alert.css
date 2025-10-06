@@ -1,0 +1,19 @@
+@import "styles.css";
+
+.swal-modal{
+    width: 900px;
+    height: 30rem;
+    border-radius: 5%;
+}
+.swal-text{
+    font-size: 4rem;
+}
+.swal-button{
+    width: 800px;
+    font-size: 3rem;
+    background-color: var(--primary);
+    padding: 3rem;
+}
+.swal-footer{
+    text-align: center;
+}

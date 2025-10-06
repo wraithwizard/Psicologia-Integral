@@ -1,0 +1,51 @@
+@import "styles.css";
+
+.login{
+    max-width: 90%;
+    background-image: linear-gradient(to right, var(--negroLight) 0%, var(--gris) 120% );
+    padding: 1rem;
+    border: 0.1rem solid rgba(0,0,0,0.2);
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem; 
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    display: block;
+    padding: 0.5rem;
+    max-width: 100wh;
+    margin: 1rem;
+    font-size: 1rem;
+}
+input[type="submit"]{
+    background: var(--primary);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+input[type="checkbox"]{
+    width: 4%;
+    display: inline-block;
+}
+.login{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}         
+/* animacion del boton */
+.btn-animated{
+    transition: all 0.5s ease 0.0s;
+}
+.btn-animated:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease 0.0s;
+}
+.recuperar-pw-txt{
+    font-size:x-large;    
+}
+.login-recuperar{
+    font-size: 1rem;
+}
+.form-login__sincuenta{
+    margin-top: 2rem;
+}
