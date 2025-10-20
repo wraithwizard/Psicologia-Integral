@@ -1,4 +1,4 @@
-# Psychology Practice - Online Appointment Booking System
+# Psychology - Online Appointment Booking System
 
 Professional web platform enabling clients to book therapy appointments online with integrated payment processing and calendar management.
 
